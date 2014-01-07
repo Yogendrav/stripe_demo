@@ -4,7 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use postgresql as the database for Active Record
-gem 'pg'
+# gem 'pg'
+gem 'sqlite3'
+gem "twitter-bootstrap-rails"
+gem "less-rails"
+gem 'stripe'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -46,4 +50,4 @@ gem 'haml-rails'
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
