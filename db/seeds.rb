@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Plan.create!(:name => "Platinum", :price => 5)
+Plan.create!(:name => "Gold", :price => 12)
+Plan.create!(:name => "Silver", :price => 49)
